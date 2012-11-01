@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2DADE3D1642DCBE00BBF433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DADE3C1642DCBE00BBF433 /* UIKit.framework */; };
+		A2DADE3F1642DCBE00BBF433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DADE3E1642DCBE00BBF433 /* Foundation.framework */; };
+		A2DADE411642DCBE00BBF433 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DADE401642DCBE00BBF433 /* CoreGraphics.framework */; };
+		A2DADE471642DCBE00BBF433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE451642DCBE00BBF433 /* InfoPlist.strings */; };
+		A2DADE491642DCBE00BBF433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DADE481642DCBE00BBF433 /* main.m */; };
+		A2DADE4D1642DCBE00BBF433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DADE4C1642DCBE00BBF433 /* AppDelegate.m */; };
+		A2DADE4F1642DCBE00BBF433 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE4E1642DCBE00BBF433 /* Default.png */; };
+		A2DADE511642DCBE00BBF433 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE501642DCBE00BBF433 /* Default@2x.png */; };
+		A2DADE531642DCBE00BBF433 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE521642DCBE00BBF433 /* Default-568h@2x.png */; };
+		A2DADE561642DCBE00BBF433 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE541642DCBE00BBF433 /* MainStoryboard.storyboard */; };
+		A2DADE591642DCBE00BBF433 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DADE581642DCBE00BBF433 /* FirstViewController.m */; };
+		A2DADE5B1642DCBE00BBF433 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE5A1642DCBE00BBF433 /* first.png */; };
+		A2DADE5D1642DCBE00BBF433 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE5C1642DCBE00BBF433 /* first@2x.png */; };
+		A2DADE601642DCBE00BBF433 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DADE5F1642DCBE00BBF433 /* SecondViewController.m */; };
+		A2DADE621642DCBE00BBF433 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE611642DCBE00BBF433 /* second.png */; };
+		A2DADE641642DCBE00BBF433 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE631642DCBE00BBF433 /* second@2x.png */; };
+		A2DADE6C1642DCBE00BBF433 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DADE6B1642DCBE00BBF433 /* SenTestingKit.framework */; };
+		A2DADE6D1642DCBE00BBF433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DADE3C1642DCBE00BBF433 /* UIKit.framework */; };
+		A2DADE6E1642DCBE00BBF433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DADE3E1642DCBE00BBF433 /* Foundation.framework */; };
+		A2DADE761642DCBE00BBF433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2DADE741642DCBE00BBF433 /* InfoPlist.strings */; };
+		A2DADE791642DCBE00BBF433 /* EV_MunichTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DADE781642DCBE00BBF433 /* EV_MunichTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2DADE6F1642DCBE00BBF433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DADE2F1642DCBE00BBF433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DADE371642DCBE00BBF433;
+			remoteInfo = "EV Munich";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2DADE381642DCBE00BBF433 /* EV Munich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EV Munich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DADE3C1642DCBE00BBF433 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2DADE3E1642DCBE00BBF433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2DADE401642DCBE00BBF433 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2DADE441642DCBE00BBF433 /* EV Munich-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EV Munich-Info.plist"; sourceTree = "<group>"; };
+		A2DADE461642DCBE00BBF433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2DADE481642DCBE00BBF433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2DADE4A1642DCBE00BBF433 /* EV Munich-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EV Munich-Prefix.pch"; sourceTree = "<group>"; };
+		A2DADE4B1642DCBE00BBF433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2DADE4C1642DCBE00BBF433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2DADE4E1642DCBE00BBF433 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A2DADE501642DCBE00BBF433 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A2DADE521642DCBE00BBF433 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A2DADE551642DCBE00BBF433 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A2DADE571642DCBE00BBF433 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A2DADE581642DCBE00BBF433 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A2DADE5A1642DCBE00BBF433 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A2DADE5C1642DCBE00BBF433 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A2DADE5E1642DCBE00BBF433 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A2DADE5F1642DCBE00BBF433 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A2DADE611642DCBE00BBF433 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		A2DADE631642DCBE00BBF433 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A2DADE6A1642DCBE00BBF433 /* EV MunichTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EV MunichTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DADE6B1642DCBE00BBF433 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A2DADE731642DCBE00BBF433 /* EV MunichTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EV MunichTests-Info.plist"; sourceTree = "<group>"; };
+		A2DADE751642DCBE00BBF433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2DADE771642DCBE00BBF433 /* EV_MunichTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EV_MunichTests.h; sourceTree = "<group>"; };
+		A2DADE781642DCBE00BBF433 /* EV_MunichTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EV_MunichTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DADE351642DCBE00BBF433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DADE3D1642DCBE00BBF433 /* UIKit.framework in Frameworks */,
+				A2DADE3F1642DCBE00BBF433 /* Foundation.framework in Frameworks */,
+				A2DADE411642DCBE00BBF433 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DADE661642DCBE00BBF433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DADE6C1642DCBE00BBF433 /* SenTestingKit.framework in Frameworks */,
+				A2DADE6D1642DCBE00BBF433 /* UIKit.framework in Frameworks */,
+				A2DADE6E1642DCBE00BBF433 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DADE2D1642DCBE00BBF433 = {
+			isa = PBXGroup;
+			children = (
+				A2DADE421642DCBE00BBF433 /* EV Munich */,
+				A2DADE711642DCBE00BBF433 /* EV MunichTests */,
+				A2DADE3B1642DCBE00BBF433 /* Frameworks */,
+				A2DADE391642DCBE00BBF433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DADE391642DCBE00BBF433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DADE381642DCBE00BBF433 /* EV Munich.app */,
+				A2DADE6A1642DCBE00BBF433 /* EV MunichTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DADE3B1642DCBE00BBF433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2DADE3C1642DCBE00BBF433 /* UIKit.framework */,
+				A2DADE3E1642DCBE00BBF433 /* Foundation.framework */,
+				A2DADE401642DCBE00BBF433 /* CoreGraphics.framework */,
+				A2DADE6B1642DCBE00BBF433 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2DADE421642DCBE00BBF433 /* EV Munich */ = {
+			isa = PBXGroup;
+			children = (
+				A2DADE4B1642DCBE00BBF433 /* AppDelegate.h */,
+				A2DADE4C1642DCBE00BBF433 /* AppDelegate.m */,
+				A2DADE541642DCBE00BBF433 /* MainStoryboard.storyboard */,
+				A2DADE571642DCBE00BBF433 /* FirstViewController.h */,
+				A2DADE581642DCBE00BBF433 /* FirstViewController.m */,
+				A2DADE5A1642DCBE00BBF433 /* first.png */,
+				A2DADE5C1642DCBE00BBF433 /* first@2x.png */,
+				A2DADE5E1642DCBE00BBF433 /* SecondViewController.h */,
+				A2DADE5F1642DCBE00BBF433 /* SecondViewController.m */,
+				A2DADE611642DCBE00BBF433 /* second.png */,
+				A2DADE631642DCBE00BBF433 /* second@2x.png */,
+				A2DADE431642DCBE00BBF433 /* Supporting Files */,
+			);
+			path = "EV Munich";
+			sourceTree = "<group>";
+		};
+		A2DADE431642DCBE00BBF433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DADE441642DCBE00BBF433 /* EV Munich-Info.plist */,
+				A2DADE451642DCBE00BBF433 /* InfoPlist.strings */,
+				A2DADE481642DCBE00BBF433 /* main.m */,
+				A2DADE4A1642DCBE00BBF433 /* EV Munich-Prefix.pch */,
+				A2DADE4E1642DCBE00BBF433 /* Default.png */,
+				A2DADE501642DCBE00BBF433 /* Default@2x.png */,
+				A2DADE521642DCBE00BBF433 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2DADE711642DCBE00BBF433 /* EV MunichTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2DADE771642DCBE00BBF433 /* EV_MunichTests.h */,
+				A2DADE781642DCBE00BBF433 /* EV_MunichTests.m */,
+				A2DADE721642DCBE00BBF433 /* Supporting Files */,
+			);
+			path = "EV MunichTests";
+			sourceTree = "<group>";
+		};
+		A2DADE721642DCBE00BBF433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DADE731642DCBE00BBF433 /* EV MunichTests-Info.plist */,
+				A2DADE741642DCBE00BBF433 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DADE371642DCBE00BBF433 /* EV Munich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DADE7C1642DCBE00BBF433 /* Build configuration list for PBXNativeTarget "EV Munich" */;
+			buildPhases = (
+				A2DADE341642DCBE00BBF433 /* Sources */,
+				A2DADE351642DCBE00BBF433 /* Frameworks */,
+				A2DADE361642DCBE00BBF433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EV Munich";
+			productName = "EV Munich";
+			productReference = A2DADE381642DCBE00BBF433 /* EV Munich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2DADE691642DCBE00BBF433 /* EV MunichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DADE7F1642DCBE00BBF433 /* Build configuration list for PBXNativeTarget "EV MunichTests" */;
+			buildPhases = (
+				A2DADE651642DCBE00BBF433 /* Sources */,
+				A2DADE661642DCBE00BBF433 /* Frameworks */,
+				A2DADE671642DCBE00BBF433 /* Resources */,
+				A2DADE681642DCBE00BBF433 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DADE701642DCBE00BBF433 /* PBXTargetDependency */,
+			);
+			name = "EV MunichTests";
+			productName = "EV MunichTests";
+			productReference = A2DADE6A1642DCBE00BBF433 /* EV MunichTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DADE2F1642DCBE00BBF433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = 106003619;
+			};
+			buildConfigurationList = A2DADE321642DCBE00BBF433 /* Build configuration list for PBXProject "EV Munich" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2DADE2D1642DCBE00BBF433;
+			productRefGroup = A2DADE391642DCBE00BBF433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DADE371642DCBE00BBF433 /* EV Munich */,
+				A2DADE691642DCBE00BBF433 /* EV MunichTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DADE361642DCBE00BBF433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DADE471642DCBE00BBF433 /* InfoPlist.strings in Resources */,
+				A2DADE4F1642DCBE00BBF433 /* Default.png in Resources */,
+				A2DADE511642DCBE00BBF433 /* Default@2x.png in Resources */,
+				A2DADE531642DCBE00BBF433 /* Default-568h@2x.png in Resources */,
+				A2DADE561642DCBE00BBF433 /* MainStoryboard.storyboard in Resources */,
+				A2DADE5B1642DCBE00BBF433 /* first.png in Resources */,
+				A2DADE5D1642DCBE00BBF433 /* first@2x.png in Resources */,
+				A2DADE621642DCBE00BBF433 /* second.png in Resources */,
+				A2DADE641642DCBE00BBF433 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DADE671642DCBE00BBF433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DADE761642DCBE00BBF433 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2DADE681642DCBE00BBF433 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DADE341642DCBE00BBF433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DADE491642DCBE00BBF433 /* main.m in Sources */,
+				A2DADE4D1642DCBE00BBF433 /* AppDelegate.m in Sources */,
+				A2DADE591642DCBE00BBF433 /* FirstViewController.m in Sources */,
+				A2DADE601642DCBE00BBF433 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DADE651642DCBE00BBF433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DADE791642DCBE00BBF433 /* EV_MunichTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DADE701642DCBE00BBF433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DADE371642DCBE00BBF433 /* EV Munich */;
+			targetProxy = A2DADE6F1642DCBE00BBF433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2DADE451642DCBE00BBF433 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DADE461642DCBE00BBF433 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2DADE541642DCBE00BBF433 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DADE551642DCBE00BBF433 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A2DADE741642DCBE00BBF433 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DADE751642DCBE00BBF433 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DADE7A1642DCBE00BBF433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A2DADE7B1642DCBE00BBF433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DADE7D1642DCBE00BBF433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EV Munich/EV Munich-Prefix.pch";
+				INFOPLIST_FILE = "EV Munich/EV Munich-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2DADE7E1642DCBE00BBF433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EV Munich/EV Munich-Prefix.pch";
+				INFOPLIST_FILE = "EV Munich/EV Munich-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2DADE801642DCBE00BBF433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EV Munich.app/EV Munich";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EV Munich/EV Munich-Prefix.pch";
+				INFOPLIST_FILE = "EV MunichTests/EV MunichTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A2DADE811642DCBE00BBF433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EV Munich.app/EV Munich";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EV Munich/EV Munich-Prefix.pch";
+				INFOPLIST_FILE = "EV MunichTests/EV MunichTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DADE321642DCBE00BBF433 /* Build configuration list for PBXProject "EV Munich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DADE7A1642DCBE00BBF433 /* Debug */,
+				A2DADE7B1642DCBE00BBF433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DADE7C1642DCBE00BBF433 /* Build configuration list for PBXNativeTarget "EV Munich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DADE7D1642DCBE00BBF433 /* Debug */,
+				A2DADE7E1642DCBE00BBF433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2DADE7F1642DCBE00BBF433 /* Build configuration list for PBXNativeTarget "EV MunichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DADE801642DCBE00BBF433 /* Debug */,
+				A2DADE811642DCBE00BBF433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DADE2F1642DCBE00BBF433 /* Project object */;
+}
